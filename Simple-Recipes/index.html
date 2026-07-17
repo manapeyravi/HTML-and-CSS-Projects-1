@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Recipes</title>
+    
+    <!-- Custom Typography: Google Fonts (Playfair Display for Headings, Montserrat for Body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Link to your CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header and Navigation Bar -->
+    <header>
+        <div class="logo">
+            <h1>Simple Recipes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li> <!-- Newly added navigation item -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home (Hero) Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Delicious Meals, Made Simple</h2>
+            <p>Explore easy-to-follow recipes with everyday ingredients.</p>
+            <a href="#recipes" class="btn">Explore Recipes</a>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section id="recipes" class="recipes-section">
+        <h2>Featured Recipes</h2>
+        <div class="recipes-grid">
+            <!-- Recipe Card 1 -->
+            <div class="recipe-card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400" alt="Fresh salad bowl with avocado and quinoa">
+                <h3>Fresh Avocado Salad</h3>
+                <p>A crisp, refreshing mix of greens, avocado, and homemade lemon dressing.</p>
+            </div>
+            <!-- Recipe Card 2 -->
+            <div class="recipe-card">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400" alt="Margherita pizza close up">
+                <h3>Classic Margherita Pizza</h3>
+                <p>Crispy crust topped with fresh mozzarella, sweet tomatoes, and basil leaves.</p>
+            </div>
+            <!-- Recipe Card 3 -->
+            <div class="recipe-card">
+                <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400" alt="Fluffy blueberry pancakes stacked high">
+                <h3>Fluffy Blueberry Pancakes</h3>
+                <p>Sweet, golden-brown pancakes bursting with fresh, juicy blueberries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section (Newly Added Section) -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>Simple Recipes is your ultimate destination for easy-to-follow recipes that make cooking enjoyable for everyone, whether you're a seasoned chef or a beginner. Founded in the United States out of a passion for home cooking, our mission is to inspire and empower you to create delicious meals with everyday ingredients and simple techniques.</p>
+            <p>We offer a wide range of diverse cuisines, from classic comfort foods to international dishes, all accompanied by step-by-step instructions and helpful tips to ensure your cooking experience is smooth and successful. Our dedicated team of home cooks and food enthusiasts meticulously test each recipe, so you can cook with confidence. At Simple Recipes, we believe that good food brings people together, and we're excited to have you join our community. Let’s cook up something amazing together!</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to submit your own recipe? Drop us a message!</p>
+        <div class="form-container">
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Element -->
+    <footer>
+        <p>&copy; 2026 Simple Recipes. Built with love for home cooks.</p>
+    </footer>
+
+</body>
+</html>
